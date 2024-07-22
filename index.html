@@ -1,50 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="loginpage.css">
-    <title>Login CamerDiplome</title>
+    <title>100000 Codeurs: autonomiser Jeunes et Femmes par le numérique</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bienvenue sur CamerDiplome</h1>
-    <form action="">
-        <!-- Headings for the form -->
-        <div class="headingsContainer">
-            <h3>Enregistrez-vous</h3>
-            <p>Enregistrezvous avec votre identifiant et votre mot de passe</p>
+    <header>
+        <h1>100000 Codeurs: autonomie les Jeunes et Femmes par le numérique</h1>
+    </header>
+
+    <section class="first" >
+        <div class="image">
+            <img src="images/10000Codeurs.jpg" alt="10000 codeurs">
         </div>
-
-        <!-- Main container for all inputs -->
-        <div class="mainContainer">
-            <!-- Username -->
-            <label for="username">Votre Identifiant</label>
-            <input type="text" placeholder="Entrez votre identifiant" name="username" required>
-
-            <br><br>
-
-            <!-- Password -->
-            <label for="pswrd">Mot de passe</label>
-            <input type="password" placeholder="Entez votre mot de passe" name="pswrd" required>
-
-            <!-- sub container for the checkbox and forgot password link -->
-            <div class="subcontainer">
-                <label>
-                  <input type="checkbox" checked="checked" name="remember"> Se rappeler de moi
-                </label>
-                <p class="forgotpsd"> <a href="#">Mot de passe oublié ?</a></p>
-            </div>
-
-
-            <!-- Submit button -->
-            <button type="submit">Login</button>
-
-            <!-- Sign up link -->
-            <p class="register">Not a member?  <a href="#">Register here!</a></p>
-
+        <div class="texte">
+            <p>En parallèle de notre développeent commercial en Afrique, nous souhaitons avoir
+                <span style="color: red;" > un impact social sur ce Continent</span>
+            </p>
+            <p>
+                Objis est le sponsor historique du programme <a href="http://">10 000 codeur</a> 
+            </p>
         </div>
+    </section>
+    <section>
+        <p>
+            Découvrez son conseil aux jeunes 15-35 ans du Continent.
+        </p>
+    
+        <h2>Ils en parlent</h2>
+    
+        <ul>
+            <li> <b>ORANGE : </b> <a href="http://"> "Objis, training center for developers in Africa" </a> </li>
+            <li><b>TV5 MONDE : </b> <a href="">présentation 1000codeurs</a> </li>
+        </ul>
+    </section>
+    
+    <section class="contact">
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Giraud</td>
+                <td>Pierre</td>
+                <td>pierre.giraud@edhec.com</td>
+            </tr>
+            <tr>
+                <td>Joly</td>
+                <td>Pauline</td>
+                <td>pjl@gmail.com</td>
+            </tr>
+        </table>
+    </section>
 
-    </form>
+    <footer>
+    </footer>
 </body>
 </html>

@@ -1,19 +1,45 @@
 body {
     font-family: sans-serif;
-    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 0;
 }
 
 header {
-    background-color: #007bff;
-    color: #fff;
+    color: #13da05;
     padding: 20px;
     text-align: center;
+    font-weight: 300;
 }
 
 h1 {
     margin: 0;
+    font-weight: 300;
 }
+h2{
+    color: blueviolet;
+    font-weight: 200;
+}
+th{
+    font-weight: bold;
+    color: red;
+}
+
+.first {
+    position: relative;
+    display: inline;
+}
+
+.image {
+    float: left;
+    margin-right: 20px;
+}
+
+.text {
+    float: right;
+}
+
+
 
 section {
     padding: 20px;
@@ -25,7 +51,6 @@ h2 {
 }
 
 ul {
-    list-style: none;
     padding: 0;
 }
 
